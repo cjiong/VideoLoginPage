@@ -13,6 +13,7 @@
 		196F55E91BE105C7008AE26F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196F55E81BE105C7008AE26F /* Images.xcassets */; };
 		196F55EC1BE105C7008AE26F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196F55EA1BE105C7008AE26F /* LaunchScreen.xib */; };
 		196F55F81BE105C7008AE26F /* VideoLoginPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196F55F71BE105C7008AE26F /* VideoLoginPageTests.swift */; };
+		196F56021BE10D2F008AE26F /* railway.gif in Resources */ = {isa = PBXBuildFile; fileRef = 196F56011BE10D2F008AE26F /* railway.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		196F55F11BE105C7008AE26F /* VideoLoginPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoLoginPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		196F55F61BE105C7008AE26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		196F55F71BE105C7008AE26F /* VideoLoginPageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLoginPageTests.swift; sourceTree = "<group>"; };
+		196F56011BE10D2F008AE26F /* railway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = railway.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				196F55E11BE105C7008AE26F /* AppDelegate.swift */,
 				196F55E31BE105C7008AE26F /* ViewController.swift */,
 				196F55E51BE105C7008AE26F /* Main.storyboard */,
+				196F56011BE10D2F008AE26F /* railway.gif */,
 				196F55E81BE105C7008AE26F /* Images.xcassets */,
 				196F55EA1BE105C7008AE26F /* LaunchScreen.xib */,
 				196F55DF1BE105C7008AE26F /* Supporting Files */,
@@ -156,6 +159,7 @@
 		196F55D41BE105C7008AE26F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Jiong;
 				TargetAttributes = {
@@ -192,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196F56021BE10D2F008AE26F /* railway.gif in Resources */,
 				196F55E71BE105C7008AE26F /* Main.storyboard in Resources */,
 				196F55EC1BE105C7008AE26F /* LaunchScreen.xib in Resources */,
 				196F55E91BE105C7008AE26F /* Images.xcassets in Resources */,
@@ -343,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoLoginPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VideoLoginPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +418,7 @@
 				196F55FD1BE105C7008AE26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		196F55FE1BE105C7008AE26F /* Build configuration list for PBXNativeTarget "VideoLoginPageTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +427,7 @@
 				196F56001BE105C7008AE26F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
